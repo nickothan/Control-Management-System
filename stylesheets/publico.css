@@ -1,0 +1,34 @@
+/* Colores del Site:
+	#1A446C - blue grey
+	#689DC1 - light blue
+	#D4E6F4 - very light blue
+	#EEE4B9 - light tan
+*/
+
+html { height: 100%; width: 100%; }
+body { width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; background: #D4E6F4;
+	font-size: 13px; line-height: 15px; }
+img { border: none; }
+table, tr, td { border-collapse: collapse; vertical-align: top; font-size: 13px; line-height: 15px;}
+a { color: #1A446C;}
+
+#header { height: 70px; margin: 0px; padding: 0px; text-align: left; 
+	background: #1A446C; color: #D4E6F4; }
+#header h1 { padding: 1em; margin: 0px;}
+#principal { margin: 0px; padding: 0px; height: 600px; width: 100%; background: #EEE4B9; }
+#estructura { height: 600px; width: 100%; }
+#footer { height: 2em; margin: 0px; padding: 1em; text-align: center; 
+	background: #1A446C;  color: #D4E6F4; }
+
+/* Navegacion */
+#navegacion { width: 150px; padding: 1em 2em; color: #D4E6F4; background: #689DC1; }
+#navegacion a { color: #D4E6F4; text-decoration: none; }
+ul.topicos { padding-left: 0; list-style: none; }
+ul.paginas { padding-left: 2em; list-style: square; }
+.selected { font-weight: bold; }
+
+/* Contenido Pagina */
+#pagina { padding-left: 2em; vertical-align: top; background: #D4E6F4; }
+#pagina h2 { color: #1A446C; margin-top: 1em;}
+#pagina h3 { color: #1A446C; }

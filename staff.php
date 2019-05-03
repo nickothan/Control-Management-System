@@ -1,18 +1,5 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="stylesheetsreset.css"/>
-    <link rel="stylesheet" href="stylesheets/publico.css"/>
-    <title>Basico</title>
-</head>
-<body>
-    <div id="header">
-        <h1>S. Corp</h1>
-    </div>
-    <div id="principal">
+<?php require_once("includes/funciones.php"); ?>
+<?php include("includes/header.php"); ?>
         <table id="estructura">
             <tr>
                 <td id="navegacion">
@@ -29,7 +16,4 @@
                 </td>
             </tr>
         </table>
-    </div>
-    <div id="footer">Derechos recervados 2011, S. Corp</div>
-</body>
-</html>
+<?php include("includes/footer.php");  ?>
